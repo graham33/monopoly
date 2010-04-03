@@ -1,0 +1,76 @@
+{% extends "base_template.html" %}
+
+{%block title%}Monopoly Pub Crawl Map{%endblock%}
+
+{%block head%}
+  <style type="text/css">
+    div#logo {
+      float: left;
+    }
+
+    div#chooser {
+      float: right;
+      vertical-align: middle;    }
+
+    div#separator {
+      clear: both;
+      margin-bottom: 10px;
+    }
+
+    div#chooser li {
+      list-style: none;
+    }
+
+    div#stops {
+      float: right;
+      width: 160px;
+    }
+
+    div#stops a {
+      font-size: 9pt;
+    }
+
+    div#map {
+      width: 750px;
+      height: 550px;
+    }
+  </style>
+
+  <!-- prod key: ABQIAAAAvQ6KfeM-h-xjm9_IhX7ELRRO6PBQUXDWBsmpLvi9Y9T0YW6XMxRnNww4sxUJG-Q33kP9CdwF6DVDmA -->
+  <!-- local key: ABQIAAAAvQ6KfeM-h-xjm9_IhX7ELRTpH3CbXHjuCVmaTc5MkkU4wO1RRhRta1ch84NuY9VP5rZVc7Z-e4B0GA -->
+
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAvQ6KfeM-h-xjm9_IhX7ELRRO6PBQUXDWBsmpLvi9Y9T0YW6XMxRnNww4sxUJG-Q33kP9CdwF6DVDmA"
+    type="text/javascript"></script>
+
+  <script type="text/javascript" src="/scripts/map.js">
+  </script>
+
+{%endblock%}
+
+{%block onLoad%}load('{{route}}'){%endblock%}
+{%block onUnload%}GUnload(){%endblock%}
+
+{%block content%}
+
+    <div id="logo">
+      <img src="/site_media/images/monopoly.png" alt="Monopoly Logo"/> 
+    </div>
+
+    <div id="chooser">
+      <ul>
+	<li id="original.xml"><a href="#" onClick="displayRoute('original');">Original Route</a></li>
+	<li id="inorder.xml"><a href="#" onClick="displayRoute('inorder');">In-Order Route</a></li>
+      </ul>
+    </div>
+
+    <div id="separator"></div>  
+  
+    <div id="stops"></div>
+
+    <div id="map"></div>
+
+    <p style="text-align: center">View <a href="#" onClick="printableVersion();">text version</a> of this route.</p>
+
+    <p style="text-align: center">Back to the main <a href="/">Monopoly Pub Crawl</a> page.</p>
+
+{%endblock%}

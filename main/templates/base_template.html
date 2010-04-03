@@ -1,0 +1,64 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"
+ xmlns:v="urn:schemas-microsoft-com:vml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>{% block title %}Monopoly Pub Crawl{% endblock %}</title>
+<link href="/site_media/css/main.css" rel="stylesheet" type="text/css"/>
+{%block head%}{%endblock%}
+</head>
+
+<body
+  onload="{%block onLoad%}{%endblock%}"
+  onunload="{%block onUnload%}{%endblock%}"
+  >  
+
+  <div class="header">
+    <a href="/">home</a> | <a href="/route/original/">original route</a> | <a href="/route/inorder/">in-order route</a> | <a href="/map/original/">map</a> | <a href="/halloffame/">hall of fame</a> | <a href="http://www.flickr.com/groups/monopolypubcrawl/">photos</a> | <a href="/facebook/">facebook</a>
+  </div>
+
+  <div class="content">
+  {%block content%}{%endblock%}
+  </div>
+
+  <hr/>
+
+  <div class="footer">
+
+    <p>Please note that this site is not affiliated with any of the pubs
+    on the route or the Monopoly game itself.  The route is provided
+    without warranty of any kind for information purposes only and is
+    compiled from freely-available information.  No money is made from
+    this site.  The owners of the site cannot be held responsible for
+    any mishaps, accidents or other incidents that may occur as a result
+    of following the route.  Stay safe and sensible!</p>
+  
+    <p>	
+      <a href="http://validator.w3.org/check/referer">
+	<img style="border:0;width:88px;height:31px"
+	     src='/site_media/images/valid-xhtml10.png'
+             alt="Valid XHTML 1.0!" /></a>
+    
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+      <img style="border:0;width:88px;height:31px"
+	   src='/site_media/images/vcss.png' 
+	   alt="Valid CSS!" />
+    </a>
+  </p>
+  
+  <p>Copyright &copy; 2004-2010 <a href="http://www.simulcra.org">Graham Bennett</a></p>
+  </div>
+
+  <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+  _uacct = "UA-2038810-1";
+  urchinTracker();
+  </script>
+
+</body>
+
+</html>

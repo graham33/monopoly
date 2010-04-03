@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<halloffame>
+
+  <person>
+    <name>Graham Bennett</name>
+    <hotel/>
+    <hotel/>
+    <hotel/>
+    <hotel/>
+    <hotel/>
+    <hotel/>
+    <house/>
+  </person>
+
+  <person>
+    <name>Andrew Ince</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Rob Snelgrove</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Chris Pearson</name>
+    <hotel/>
+    <house/>
+  </person>
+
+  <person>
+    <name>Alex Ahern</name>
+    <dog/>
+    <dog/>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Hani Suleiman</name>
+    <hotel/>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Steven Rolland</name>
+    <hotel/>
+    <hotel/>
+    <house/>
+  </person>
+
+  <person>
+    <name>James Craven</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>John Shaw</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Rick Walker</name>
+    <house/>
+  </person>
+
+  <person>
+    <name>Laura Allison</name>
+    <house/>
+  </person>
+
+  <person>
+    <name>Phil Miller</name>
+    <dog/>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Daniel Lister</name>
+    <hotel/>
+    <hotel/>
+    <hotel/>
+    <house/>
+  </person>
+
+  <person>
+    <name>Ruth Hay</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Sam Jeremy</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Richard Halward</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Martin Lloyd</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>David Ahearn</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Alexia Adcock</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Stuart Pritchard</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Mona O'Reilly</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Kieran Meade</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Steven Redston</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>James Cullen</name>
+    <hotel/>
+  </person>
+
+<!-- end of hotels -->
+
+  <person>
+    <name>Simon Brackenboro</name>
+    <house/>
+    <dog/>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Yanif Ahmad</name>
+    <house/>
+  </person>
+
+  <person>
+    <name>Janice Drohan</name>
+    <house/>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Mike Nikolich</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Keith Hargreaves</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Lisa Cunningham</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Andy Ho</name>
+    <dog/>
+    <dog/>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Paul Hudspith</name>
+    <hotel/>
+    <hotel/>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Gus Paul</name>
+    <hotel/>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Oliver Rowsell</name>
+    <house/>
+  </person>
+
+  <person>
+    <name>Gavin Trevan</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Michael Raasch</name>
+    <hotel/>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Daniel Livesley</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Phil Dutton</name>
+    <hotel/>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Steve Barham</name>
+    <hotel/>
+    <hotel/>
+  </person>
+  
+  <person>
+    <name>Sam Morris</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Maeve McDonagh</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Ele Brown</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Jennifer Cross</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Stephen Scott</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Rob Ahearn</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Dave Collis</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Jade ???</name>
+    <hotel/>
+  </person>
+  
+  <person>
+    <name>Ed Eldred</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Nigel Mulford</name>
+    <hotel/>
+  </person>
+  
+  <person>
+    <name>Ian Mulford</name>
+    <hotel/>
+  </person>
+ 
+  <person>
+    <name>Gemma ???</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Nicola ???</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>John Freedman</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Jonathan Pillai</name>
+    <house/>
+  </person>
+
+  <person>
+    <name>Anthony Mak</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Anthony Spate</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>John Brewer</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Jasmin Grigull</name>
+    <house/>
+  </person>
+  
+  <person>
+    <name>Mark ???</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Dom Wong</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Warren Sassoon</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Patrick Wray</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Paul Douglas</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Claire Douglas</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Lincoln Blank</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Glen Kerrigan</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>David Jacobs</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Andrew Martin</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Lucy Marshall</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Emma Shaw</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Matt Shaw</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Pete from Deeping</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Fowler from Deeping</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Roisin Conway</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Georgie Wells</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Lewis Harrison-Barker</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Adam Holt</name>
+    <dog/>
+  </person>
+  
+  <person>
+    <name>John Holt</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Gavin Campbell</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Dave Page</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Ollie Fleming</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Nick Forsythe</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Charles Johnson</name>
+    <hotel/>
+  </person>
+  
+  <person>
+    <name>James Brookman</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Frankie Patry</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Gina Friedman</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Mike Morrison</name>
+    <hotel/>
+  </person>
+                                                                   
+
+  <person>
+    <name>Neil Sutherland</name>
+    <hotel/>
+  </person>
+                                                                   
+  <person>
+    <name>Jane Girdziusz</name>
+    <hotel/>
+  </person>
+                                                                 
+  <person>
+    <name>Danny Murray</name>
+    <hotel/>
+  </person>
+                                                                  
+  <person>
+    <name>Anna Matthews</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Christin Korda</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Chris Baldwin</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Fiona McArthur</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Chris S</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Anna ?</name>
+    <hotel/>
+  </person>
+
+  <person>
+    <name>Matt Goldspink</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Jeff Sinclair</name>
+    <dog/>
+  </person>
+
+  <person>
+    <name>Thomson Kiang</name>
+    <dog/>
+  </person>
+
+  <person><name>James Stride</name><hotel/></person>
+  <person><name>James Pickering</name><hotel/></person>
+  <person><name>Andrew Pickersgill</name><hotel/></person>
+  <person><name>Michael Smit</name><hotel/></person>
+  <person><name>David Samuel</name><hotel/></person>
+  <person><name>John Dolan</name><hotel/></person>
+  <person><name>Gareth Asomaning</name><hotel/></person>
+  <person><name>Steve Brocklebank</name><hotel/></person>
+  <person><name>Damon Clare</name><hotel/></person>
+
+  <person><name>James Baron</name><hotel/></person>
+  <person><name>Chris Chambers</name><hotel/></person>
+  <person><name>Gary Williams</name><hotel/></person>
+  <person><name>Paul Ashby</name><hotel/></person>
+
+</halloffame>

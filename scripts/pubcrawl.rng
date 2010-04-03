@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" 
+	 xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+	 ns="http://www.monopolypubcrawl.org.uk/ns/1.0">
+  
+  <a:documentation>RELAX-NG Schema for pubcrawl descriptions</a:documentation>
+
+  <start>
+    <element name="pubcrawl">
+      <element name="title">
+	<text/>
+      </element>
+      <element name="updated">
+	<ref name="textContent"/>
+      </element>
+      <element name="introduction">
+	<ref name="textContent"/>
+      </element>
+      <element name="start">
+	<ref name="textContent"/>
+      </element>
+      <oneOrMore>
+	<ref name="pub"/>
+      </oneOrMore>
+    </element>
+  </start>
+
+  <define name="pub">
+    <a:documentation>Represents a stop on the crawl</a:documentation>
+    <element name="pub">
+      <attribute name="stop"/>
+      <element name="name">
+	<text/>
+      </element>
+      <element name="square">
+	<text/>
+      </element>
+      <element name="colour">
+	<text/>
+      </element>
+      <element name="location">
+	<text/>
+      </element>
+      <element name="brewery">
+	<text/>
+      </element>
+      <element name="time">
+	<text/>
+      </element>
+      <element name="rating">
+	<text/>
+      </element>
+      <element name="thumbnail">
+	<text/>
+      </element>
+      <element name="image">
+	<text/>
+      </element>
+      <element name="directions">
+	<ref name="textContent"/>
+      </element>
+      <optional>
+	<ref name="alternatives"/>
+      </optional>
+      <element name="beers">
+	<oneOrMore>
+	  <element name="beer">
+	    <text/>
+	  </element>
+	</oneOrMore>
+      </element>
+      <element name="description">
+	<ref name="textContent"/>
+      </element>
+    </element>
+  </define>
+
+  <define name="textContent">
+    <zeroOrMore>
+      <choice>
+	<text/>
+	<element name="emph">
+	  <text/>
+	</element>
+      </choice>
+    </zeroOrMore>
+  </define>
+
+  <define name="alternatives">
+    <a:documentation>Alternative pubs for a particular stop</a:documentation>
+    <element name="alternatives">
+      <oneOrMore>
+	<element name="alternative">
+	  <element name="name">
+	    <text/>
+	  </element>      
+	  <element name="comments">
+	    <ref name="textContent"/>
+	  </element>
+	</element>
+      </oneOrMore>
+    </element>
+  </define>
+
+</grammar>

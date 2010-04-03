@@ -1,0 +1,129 @@
+
+/*body 
+{
+	font-family : Helvetica, Verdana, Tahoma, Arial, sans-serif;
+	margin: 1em
+}*/
+
+IMG
+{
+  border-width: 0;
+}
+
+.error
+{
+	text-align: center;
+	color: red;
+}
+
+.stop
+{
+	background-color: #F4F4F4
+}
+
+table.stop
+{
+	width: 100%
+}
+
+.stopname
+{
+}
+
+.red
+{
+	background-color: red;
+	height: 1em
+}
+
+.green
+{
+	background-color: green;
+	height: 1em
+}
+
+.blue
+{
+	background-color: blue;
+	height: 1em
+}
+
+.brown
+{
+	background-color: #A52A2A;
+	height: 1em
+}
+
+.station
+{
+	background-color: black;
+	height: 1em
+}
+
+.orange
+{
+	background-color: #FFA500;
+	height: 1em
+}
+
+.purple
+{
+	background-color: purple;
+	height: 1em
+}
+
+.pink
+{
+	background-color: #FFC0CB;
+	height: 1em
+}
+
+.yellow
+{
+	background-color: yellow;
+	height: 1em
+}
+
+.pub
+{
+	color: #000000;
+	background-color: white; 
+}
+
+table.pub
+{
+	width: 100%
+}
+
+.pubname
+{
+	font-weight: bold;
+	font-size: medium
+}
+
+td.pub
+{
+	padding: 10px;
+	border: 2px;
+	vertical-align: top; 
+}
+
+td.pubtitle
+{
+	background-color: #F4F4F4 
+}
+
+.directions
+{
+	margin: 1em
+}
+
+.description
+{
+	margin: 1em
+}
+
+.alternatives
+{
+	margin: 1em
+}

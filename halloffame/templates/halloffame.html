@@ -1,0 +1,42 @@
+{% extends "base_template.html" %}
+
+{% load custom_filters %}
+
+{%block title%}The Hall of Fame{%endblock%}
+
+{%block content%}
+
+    <div style="text-align: center">
+      <img src="/site_media/images/monopoly.png" alt="Monopoly Logo"/> 
+    </div>
+    
+    <h1>The Monopoly Pub Crawl Hall of Fame</h1>
+
+<p>Here is a list of all the people who have completed the route</p>
+
+{%include "key.html" %}
+
+    <table class="halloffame">
+    {% for crawler in crawlers %}
+      <tr>
+        <td>{{ crawler.name }}</td>
+	<td>
+	  {% for i in crawler.hotels|django_range %}
+	    <img class="hotel" src="/site_media/images/hotel.png" alt="Hotel"/>
+          {% endfor %}
+	  {% for i in crawler.houses|django_range %}
+	    <img class="hotel" src="/site_media/images/house.png" alt="Hotel"/>
+          {% endfor %}
+	  {% for i in crawler.dogs|django_range %}
+	    <img class="hotel" src="/site_media/images/dog.png" alt="Hotel"/>
+          {% endfor %}
+        </td>
+      </tr>
+    {% endfor %}
+    </table>
+
+</p>
+
+{%include "key.html" %}
+
+{%endblock%}

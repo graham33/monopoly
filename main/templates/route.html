@@ -1,0 +1,30 @@
+{% extends "base_template.html" %}
+
+{%block head%}<link href="/site_media/css/pubcrawl.css" rel="stylesheet" type="text/css"/>{%endblock%}
+
+{%block title%}Monopoly Pub Crawl{%endblock%}
+
+{%block content%}
+
+<p style="text-align: right"><a href="/map/{{route}}/">View the Map</a> for this route!</p>
+   
+<div style="text-align: center">
+  <img src="/site_media/images/monopoly.png" alt="Monopoly Logo"/>
+</div>
+      
+{%include route_template %}
+
+<h2>Resources</h2>
+    
+<p>The following sites may be helpful:</p>
+    
+<ul>
+  <li><a href="/map/{{route}}/">Monopoly Pub Crawl Maps</a> powered by Google Maps!!!</li>
+  <li><a href="http://tube.tfl.gov.uk">Transport for London tube guide</a></li>
+  <li><a href="http://www.tfl.gov.uk/buses/buses_map.shtml">Transport for London bus maps</a></li>
+  <li><a href="http://www.multimap.com">Multimap</a> for A-Z style maps</li>
+</ul>
+          
+<p style="text-align: center">Back to the main <a href="/">Monopoly Pub Crawl</a> page.</p>
+
+{%endblock%}
